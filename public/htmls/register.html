@@ -1,0 +1,27 @@
+<div class="container-fluid" ng-controller="registerCtrl">
+    <div class="panel panel-default" ng-hide="user" >
+        <div class="panel-heading">Register</div>
+        <div class="panel-body">
+            <div ng-show="errorMessage" class="alert alert-warning">
+                {{errorMessage}}
+            </div>
+            <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" class="form-control" id="fname" ng-model="fname" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <label for="lname">Last name </label>
+                <input type="text" class="form-control" id="lname" ng-model="lname" placeholder="Last Name ">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="text" class="form-control" id="email" ng-model="email" placeholder="name@domain.com">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" ng-model="password" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-default" ng-click="register()">Register</button>
+        </div>
+    </div>
+</div>

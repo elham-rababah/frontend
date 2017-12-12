@@ -43,6 +43,15 @@ app.post('/api/login', function (req, res) {
         res.send(422,{message:'yo! you miss`n some stuff!'});
 });
 
+app.post('/api/register', function (req, res) {
+
+    //check if email exist in return 
+    //res.send(422,{message:'this email is exist'});
+    //if not prepare obj from req body and save it in DB and return 
+    //res.send(200, user);
+
+});
+
 
 var serve = staticFiles('public/', {'index': ['index.html']});
 app.use(serve);

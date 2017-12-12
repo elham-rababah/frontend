@@ -10,6 +10,6 @@ window.loginApp = angular.module('loginApp',["ngRoute"])
     templateUrl : "htmls/login.html"
   })
   .when("/register", {
-    templateUrl : "htmls/regiser.html"
+    templateUrl : "htmls/register.html"
   })
 });
