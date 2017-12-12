@@ -10,7 +10,7 @@ loginApp.controller('registerCtrl',['$scope','$http',($scope,$http) => {
         	password:$scope.password
         })
         .then(res => {
-            //$scope.user = r.data;
+            // show to the user welocme and redirect him to home page 
         }, e => {
            // $scope.errorMessage = e.data.message;
         });
