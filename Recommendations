@@ -12,4 +12,22 @@ This is a list of recommendations to make this project better
 
 4. add routing to project 
 
-5. we must create new folder inside js for controler
+5. we must create new folder inside js for controler .
+
+6. the change password it should be form contain  old password ,new password, and confirm password .
+
+7. it no so good user experiance when after login  he go to change password page .
+
+8. add validation to the from in the front end part .
+
+9. change the place of change password and make it in the top of the page .
+
+10. compress the images which we have in the site this will incerese the speed of page rendering and the SEO of the site.
+
+
+
+
+
+
+
+
